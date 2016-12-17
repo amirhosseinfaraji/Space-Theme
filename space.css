@@ -1,0 +1,171 @@
+.CodeMirror,
+.CodeMirror-scroll {
+  background-color: #292e39;
+  color: #fff;
+  font-weight: bold;
+}
+.CodeMirror-focused .CodeMirror-activeline-background {
+  background: #f8f9fa;
+}
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+  box-shadow: inset 15px 0 0 0 #000;
+}
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+  color: #767676;
+}
+.cm-atom{
+    color: #fbc97e;
+}
+.cm-string{
+    color: #e3e1e2;
+}
+.cm-string-2{
+    color: #e3e1e2;
+}
+.cm-hr {
+  color: #e3e1e2;
+}
+.cm-number{
+    color: #9feaf9;
+}
+.cm-attribute{
+    color: #23faca;
+}
+.cm-plus {
+  color: #b95e63;
+}
+.cm-def{
+    color: #fbc97e;
+}
+.cm-property {
+  color: #fbc97e;
+}
+.cm-variable{
+    color: #9feaf9;
+}
+.cm-variable-2{
+    color: #9feaf9;
+}
+.cm-variable-3{
+    color: #9feaf9;
+}
+.cm-operator{
+    color: #fff;
+}
+.cm-meta{
+    color: #fff;
+}
+.cm-bracket {
+  color: #fff;
+}
+.cm-comment {
+  color: #6b6b6b;
+}
+.cm-error,
+.cm-minus {
+  color: #fc3158;
+}
+.cm-header {
+  color: #fc3158;
+}
+.cm-link {
+  color: #e3e1e2;
+  text-decoration: none;
+}
+.cm-rangeinfo {
+  color: #e3e1e2;
+}
+.cm-keyword{
+    color: #23faca;
+}
+.cm-qualifier{
+    color: #23faca;
+}
+.cm-builtin{
+    color: #fff;
+}
+.cm-tag{
+    color: #fbc97e;
+}
+.cm-quote {
+  color: #fbc97e;
+}
+.CodeMirror-searching {
+  background-color: #f6a644;
+}
+.CodeMirror-searching.searching-current-match {
+  background-color: #f6a644;
+}
+.CodeMirror-cursor {
+  border-left: 2px solid #fff !important;
+}
+.CodeMirror-gutters {
+  background-color: #292e39;
+  border-right: none;
+}
+.CodeMirror-linenumber {
+  color: #8a8681;
+}
+.CodeMirror .CodeMirror-selected {
+  background: #3a4150;
+}
+.CodeMirror-focused .CodeMirror-selected {
+  background: #3a4150;
+}
+.CodeMirror-matchingbracket,
+.CodeMirror-matchingtag {
+  /* Ensure visibility against gray inline editor background */
+  background-color: #292e39;
+  color: #fff !important;
+}
+.CodeMirror-overwrite .CodeMirror-cursor {
+  border-left: none !important;
+  border-bottom: 2px solid #fff;
+}
+.CodeMirror .CodeMirror {
+  background: transparent;
+}
+.CodeMirror .CodeMirror .CodeMirror-gutters {
+  background: transparent;
+  border-right: none;
+}
+.CodeMirror .CodeMirror .CodeMirror-activeline-background {
+  background: transparent;
+}
+.CodeMirror .CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt {
+  background: transparent;
+  color: #767676;
+}
+.CodeMirror .CodeMirror-focused .CodeMirror-activeline-background {
+  background: #2f2f2f;
+}
+.CodeMirror .CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.CodeMirror-foldgutter-open:after {
+  color: #666;
+}
+.CodeMirror-foldgutter-folded:after {
+  color: #aaa;
+}
+.CodeMirror.over-gutter .CodeMirror-foldgutter-open:after,
+.CodeMirror-activeline .CodeMirror-foldgutter-open:after {
+  color: #888;
+}
+.CodeMirror-foldmarker {
+  border-color: #000;
+  color: #ccc;
+  background-color: #444;
+}
+.image-view,
+.not-editor {
+  background-color: #1d1f21;
+}
+.view-pane .image-view {
+  color: #ddd;
+}

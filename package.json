@@ -1,0 +1,14 @@
+{
+    "name": "space-theme",
+    "title": "Space Theme",
+    "description": "Free Theme For Programmers :))",
+    "homepage": "https://github.com/AmirHossein-Faraji/Space-Theme",
+    "version": "1.0.0",
+    "author": "AmirHossein Faraji <farajiamirhossein@outlook.com> (https://github.com/AmirHossein-Faraji)",
+    "license": "MIT",
+    "theme": {
+        "file": "space.css",
+        "dark": true
+    },
+    "keywords": ["theme"]
+}
